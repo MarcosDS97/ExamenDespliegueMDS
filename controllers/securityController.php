@@ -1,5 +1,6 @@
 <?php
 
+require_once 'config.php';
 class securityController extends Security {
 
     public function login(){

@@ -1,5 +1,6 @@
 <?php
 
+require_once 'config.php';
 class userController extends User{
     /**
      * Función que se ejecuta siempre que se crea un objeto.

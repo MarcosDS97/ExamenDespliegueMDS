@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once 'config.php';
 
 $controller = isset($_GET['controller']) ? $_GET['controller'] : 'index';
 $method = isset($_GET['method']) ? $_GET['method'] : 'index';
